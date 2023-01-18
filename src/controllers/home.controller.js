@@ -8,7 +8,9 @@ export default () => {
 
     const API_URL = 'http://43.201.103.199/posts';
 
-    Axios.get(API_URL).then((res) => {
+    Axios.get(API_URL, {
+        headers: {'Content-Security-Policy': 'upgrade-insecure-requests'},
+    }).then((res) => {
         let posts = res.data.data.posts;
         // console.log(posts);
 
