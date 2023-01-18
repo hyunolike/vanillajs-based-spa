@@ -11,9 +11,10 @@
     justify-content: center;
     align-items: center;
   }
-  .post-list-section {
+  #post-list-section {
     height: 85%;
     background: white;
+    overflow: auto;
   }
 }
 
