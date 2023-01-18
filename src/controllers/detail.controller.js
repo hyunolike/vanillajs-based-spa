@@ -9,7 +9,9 @@ export default () => {
     const postId = localStorage.getItem('postId');
     const API_URL = 'http://43.201.103.199/post/' + postId;
 
-    Axios.get(API_URL).then((res) => {
+    Axios.get(API_URL, {
+        headers: {'Content-Security-Policy': 'upgrade-insecure-requests'},
+    }).then((res) => {
         console.log(res.data.data)
         let detail = res.data.data;
 
