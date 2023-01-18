@@ -5,9 +5,8 @@ let rootContent = document.getElementById('root');
 const router = (route) => {
     rootContent.innerHTML = '';
     switch (route) {
-        case '#/': {
+        case '#/':
             return rootContent.appendChild(pages.home());
-        }
         case '#/feat':
             return rootContent.appendChild(pages.post());
         case '#/pricing':
@@ -15,7 +14,7 @@ const router = (route) => {
         default:
             return rootContent.appendChild(pages.notFound());
     }
-    console.log(route)
+    // console.log(route)
 }
 
 export {router};
