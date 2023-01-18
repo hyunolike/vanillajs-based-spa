@@ -7,14 +7,13 @@ const router = (route) => {
     switch (route) {
         case '#/':
             return rootContent.appendChild(pages.home());
-        case '#/feat':
+        case '#/detail':
+            return rootContent.appendChild(pages.detail());
+        case '#/post':
             return rootContent.appendChild(pages.post());
-        case '#/pricing':
-            return console.log('pricing!')
         default:
             return rootContent.appendChild(pages.notFound());
     }
-    // console.log(route)
 }
 
 export {router};
