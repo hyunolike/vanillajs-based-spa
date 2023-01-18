@@ -1,9 +1,12 @@
 const HTMLWebpackPlugin = require('html-webpack-plugin')
 
+const prod = process.env.NODE_ENV === 'production';
+
 module.exports = {
+    mode: prod ? 'production' : 'development',
     entry: './src/main.js',
     output: {
-        path: __dirname + '/dist',
+        path: __dirname + '/docs',
         filename: 'bundle.js'
     },
     module: {

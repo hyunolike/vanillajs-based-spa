@@ -1,6 +1,48 @@
-$bg_primary: #fff;
+@charset "UTF-8";
+
+$bg_primary: #bbd3d3;
+$bg_section: #fff;
+
+// font 중앙 정렬 공통 속성 지정
+.font-sort-css {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 body {
   background: $bg_primary;
-  color: blue;
+  display: flex;
+  justify-content: center;
 }
+
+#section {
+  background: $bg_section;
+  width: 640px;
+  height: 100vh;
+}
+
+#header {
+  height: 15%;
+  background: red;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  .header-side{
+    background: blueviolet;
+    height: 100%;
+  }
+  .header-title{
+    @extend .font-sort-css;
+    background: #ff7f50;
+    height: 100%;
+    font: {
+      size: 2rem;
+    }
+  }
+}
+
+section {
+  height: 85%;
+  background:green;
+}
+

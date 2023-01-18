@@ -1,0 +1,1 @@
+function goDetail(o){location.href="#/detail",console.log("goDetail()"),console.log(o),localStorage.setItem("postId",o)}

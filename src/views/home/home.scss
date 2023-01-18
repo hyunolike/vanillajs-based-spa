@@ -1,0 +1,43 @@
+.font-css {
+  color: #fff;
+}
+
+.home-section{
+  height: 100%;
+  .button-section {
+    height: 15%;
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #post-list-section {
+    height: 85%;
+    background: white;
+    overflow: auto;
+  }
+}
+
+button {
+  @extend .font-css;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #AC354B;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 90vw;
+  height: 90%;
+  margin-top: 5px;
+  font: {
+    size: 2rem;
+  }
+  .create-post {
+  }
+  img {
+    width: 20%;
+  }
+}
+
