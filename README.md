@@ -2,8 +2,9 @@
   <img width="492" alt="image" src="https://user-images.githubusercontent.com/61215550/211837370-b446d5c0-3aad-4e88-a771-11ba23d98a44.png">
 
   <h2> VanillaJS 로 SPA를 구현하자! </h2>
-  배포 링크
-  <br>
+
+  <p align="middle"><a href="#">배포 링크</a></p>
+  <p align="middle"><a href="https://hyunolike.github.io/%20retrospect/">회고록</a></p>
   <br>
   <strong>해당 레포지토리</strong>는 React, Vue 프레임워크에 사용되는 
   <br>
