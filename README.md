@@ -1,4 +1,7 @@
 <div align=center>
+  <p align="middle">
+  <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fhyunolike%2Fvanillajs-based-spa&count_bg=%23FEAE00&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a>
+  </p>
   <img width="492" alt="image" src="https://user-images.githubusercontent.com/61215550/211837370-b446d5c0-3aad-4e88-a771-11ba23d98a44.png">
 
   <h2> VanillaJS 로 SPA를 구현하자! </h2>
