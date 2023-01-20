@@ -6,7 +6,7 @@ export default () => {
     divElement.classList = "home-section";
     divElement.innerHTML = views;
 
-    const API_URL = 'http://43.201.103.199/posts';
+    const API_URL = 'https://27.96.131.49/posts';
 
     Axios.get(API_URL).then((res) => {
         let posts = res.data.data.posts;
