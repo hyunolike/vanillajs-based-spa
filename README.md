@@ -28,7 +28,11 @@
 <img width="1932" alt="image" src="https://user-images.githubusercontent.com/61215550/213207419-4485053a-b282-4da1-964a-d405f9482395.png">
 
 ## ⚙️ 인프라 기술 스택 
-<img width="1932" alt="image" src="https://user-images.githubusercontent.com/61215550/213203000-8bb31763-a9f2-4132-92fc-5eaf562f9960.png">
+<img width="1932" alt="image" src="https://user-images.githubusercontent.com/61215550/213741074-904856f3-98ac-43c3-b48a-cda795d4014e.png">
+
+## 🦁 프론트엔드 인프라 구조
+<img width="1902" alt="image" src="https://user-images.githubusercontent.com/61215550/213741368-bfa2f637-607f-42c4-96c1-fc5fb0ddd86a.png">
+
 
 ## 🕊 SPA 구조  
 <img width="1902" alt="image" src="https://user-images.githubusercontent.com/61215550/213209519-3f97fdcd-f059-43ce-8132-3c72de8f2d4b.png">
