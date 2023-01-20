@@ -7,7 +7,7 @@ export default () => {
     divElement.innerHTML = views;
 
     const postId = localStorage.getItem('postId');
-    const API_URL = 'http://43.201.103.199/post/' + postId;
+    const API_URL = 'https://27.96.131.49/post/' + postId;
 
     Axios.get(API_URL, {
         headers: {'Content-Security-Policy': 'upgrade-insecure-requests'},
