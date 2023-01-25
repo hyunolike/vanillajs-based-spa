@@ -33,6 +33,13 @@
 ## 🦁 프론트엔드 인프라 구조
 <img width="1902" alt="image" src="https://user-images.githubusercontent.com/61215550/213741368-bfa2f637-607f-42c4-96c1-fc5fb0ddd86a.png">
 
+## 🎯 Preview
+> SSL Proxy Server, API Server 요청 프리뷰입니다.
+
+
+|SSL Proxy Server|API Server|
+|---|---|
+|![ssl proxy server](https://user-images.githubusercontent.com/61215550/214685219-5013a398-322b-4210-8585-c026d939d6e6.gif)|![api server](https://user-images.githubusercontent.com/61215550/214685251-875a31aa-b303-4382-955b-1920cdba6236.gif)|
 
 ## 🕊 SPA 구조  
 <img width="1902" alt="image" src="https://user-images.githubusercontent.com/61215550/213209519-3f97fdcd-f059-43ce-8132-3c72de8f2d4b.png">
